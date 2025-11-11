@@ -1,0 +1,16 @@
+{
+  "name": "codiebyheart-contract-factory",
+  "version": "0.1.0",
+  "description": "Contract factory example for CodieByHeart",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "lint": "eslint --ext .js . || true"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.16.0"
+  }
+}
